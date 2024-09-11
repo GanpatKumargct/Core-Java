@@ -2,14 +2,14 @@ package variableTypes;
 
 class Parent
 {
-    String name ="Dipti";
+    String name ="Sita";
 }
 class Demo extends Parent{
-    String name="navya";  //instance variable
+    String name="Krishna";  //instance variable
     int a; //default
     void print()
     {
-        String dog="jipsy"; //local variable
+        String dog="radha"; //local variable
         int b=10;
         System.out.println(name);
         b=20;
@@ -40,6 +40,6 @@ public class VariableDemo {
         System.out.println(d.name);
         d.print();
 
-        d.namstey("Nikita",10);
+        d.namstey("Gana",10);
     }
 }
